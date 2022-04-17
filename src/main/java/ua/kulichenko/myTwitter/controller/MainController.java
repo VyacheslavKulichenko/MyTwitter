@@ -40,6 +40,7 @@ public class MainController {
         model.put("messages", messages);
 
         return "main";
+
     }
 
     @PostMapping("filter")
